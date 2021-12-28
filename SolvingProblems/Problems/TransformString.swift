@@ -63,7 +63,7 @@ func formatString(_ string: String) -> String {
     
     // inserting modified string
     let resultString = String(repeating: tempWord, count: multiplier)
-    string.insert(contentsOf: resultString, at: openBracketIndex)
+    string.insert(contentsOf: resultString, at: multiplierIndex)
     
     
     
